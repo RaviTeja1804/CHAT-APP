@@ -1,0 +1,41 @@
+.gender {
+    display: flex;
+}
+
+.maleGender {
+    display: flex;
+    flex-direction: column;
+}
+
+.femaleGender {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.maleLabel {
+    display: flex; /* Tailwind gap classes work with flexbox */
+  gap: 0.5rem; /* Equivalent to gap-2 */
+  cursor: pointer;
+  align-items: center;
+}
+
+.male {
+    font-weight: 500; /* Example font-weight */
+  font-size: 1rem; /* Example font-size */
+  color: #cacaca;
+}
+
+.checkbox {
+    border: 1px solid #4b5563; /* Tailwind border-slate-900 */
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+
+.checkbox:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #2563eb; /* Example focus state border color */
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.5); /* Example focus state shadow */
+}
+

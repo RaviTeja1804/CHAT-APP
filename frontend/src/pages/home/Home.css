@@ -1,0 +1,31 @@
+.home {
+  display: flex;
+  height: 450px;
+
+}
+
+@media (min-width: 640px) {
+  .home {
+    height: 450px; /* Tailwind sm:h-[450px] */
+  }
+}
+
+@media (min-width: 768px) {
+  .home {
+    height: 625px; /* Tailwind md:h-[550px] */
+  }
+}
+
+.home {
+  border-radius: 0.5rem; /* Tailwind rounded-lg */
+  overflow: hidden; /* Tailwind overflow-hidden */
+  background-color: rgba(156, 163, 175, 0); /* Tailwind bg-gray-400 bg-opacity-0 */
+  background-clip: padding-box; /* Tailwind bg-clip-padding */
+  backdrop-filter: blur(10px); /* Tailwind backdrop-filter backdrop-blur-lg */
+}
+
+.divider3 {
+  height: 100%;
+  border-left: 1px solid rgb(189, 189, 189);
+  margin-left: 1rem;
+}

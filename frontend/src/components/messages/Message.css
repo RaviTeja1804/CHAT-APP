@@ -1,0 +1,96 @@
+.chat-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .chat-container2 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-end1 {
+    display: flex;
+    flex-direction: row-reverse; /* Reverses the row direction to place the image on the right */
+    align-items: flex-end;
+    gap: 0.5rem; /* Adds space between the message and the image */
+  }
+
+  .chat-end2 {
+    display: flex;
+    gap: 0.5rem; /* Adds space between the message and the image */
+  }
+
+
+  .chat-image {
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar {
+    position: relative;
+  }
+  
+  .avatar-image {
+    width: 2.5rem; /* w-10 */
+    border-radius: 9999px; /* rounded-full */
+    overflow: hidden;
+  }
+  
+  .avatar-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .chat-bubble1 {
+    background-color: rgb(22, 46, 142, 0.7); /* Example chat bubble background color */
+    border-radius: 1.25rem; /* Example border-radius for chat bubble */
+    padding: 0.75rem 1.25rem; /* Example padding */
+    margin: 0.2rem 0; /* Example margin */
+    max-width: 50%;
+    word-wrap: break-word;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+  .chat-bubble2 {
+    background-color: rgba(46, 47, 48, 0.9); /* Example chat bubble background color */
+    border-radius: 1.25rem; /* Example border-radius for chat bubble */
+    padding: 0.75rem 1.25rem; /* Example padding */
+    margin: 0.2rem 0; /* Example margin */
+    max-width: 50%;
+    word-wrap: break-word;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  .chat-footer1 {
+    margin-right: 4rem;
+    opacity: 0.5; /* opacity-50 */
+    display: flex; /* Flexbox for layout */
+    gap: 0.25rem; /* gap-1 */
+    align-items: center; /* Align items vertically */
+    font-size: 0.875rem; /* Example font size */
+    color: #d2dff7; /* Example text color */
+    margin-top: 0.25rem; /* Adds some space above the footer */
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  .chat-footer2 {
+    margin-left: 4rem;
+    opacity: 0.5; /* opacity-50 */
+    display: flex; /* Flexbox for layout */
+    gap: 0.25rem; /* gap-1 */
+    align-items: center; /* Align items vertically */
+    font-size: 0.875rem; /* Example font size */
+    color: #d2dff7; /* Example text color */
+    margin-top: 0.25rem; /* Adds some space above the footer */
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }

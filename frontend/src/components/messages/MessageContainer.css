@@ -1,0 +1,34 @@
+.messageContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .messageContainer {
+      min-width: 500px;
+    }
+  }
+
+  .messageHeader {
+    background-color: #64748b; /* Equivalent to bg-slate-500 */
+    padding-left: 1rem; /* Equivalent to px-4 */
+    padding-right: 1rem; /* Equivalent to px-4 */
+    padding-top: 0.5rem; /* Equivalent to py-2 */
+    padding-bottom: 0.5rem; /* Equivalent to py-2 */
+    margin-bottom: 0.5rem; /* Equivalent to mb-2 */
+  }
+  
+  .labelText {
+    font-size: 1.3rem; /* Tailwind default label text size */
+    color: #c8c8c9; /* Equivalent to text-gray-900 */
+    font-weight: 700;
+  }
+  
+  .recipientName {
+    font-weight: 700; /* Equivalent to font-bold */
+    color: #040e1a; /* Equivalent to text-gray-900 */
+    font-size: 1.5rem;
+  }
+
+  

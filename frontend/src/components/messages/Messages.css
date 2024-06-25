@@ -1,0 +1,23 @@
+.messages-container {
+  display: flex;
+  flex-direction: column;
+  height: 60vh; /* Full height of the viewport */
+  padding: 0.5rem;
+  box-sizing: border-box; /* Ensure padding is included in height calculation */
+  overflow: hidden; /* Ensure no overflow outside the container */
+}
+
+.messages {
+  overflow-y: auto; /* Enable vertical scrolling */
+  flex: 1; /* Allow to grow and take available space */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; /* Space between messages */
+}
+
+.messages p {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 1.2rem;
+}

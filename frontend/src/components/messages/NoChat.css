@@ -1,0 +1,53 @@
+/* Styles for the container holding the welcome message and icon */
+.welcome-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+}
+
+/* Text styles */
+.welcome-text {
+    padding: 1rem; /* Padding around text */
+    text-align: center; /* Center align text */
+    color: #d1d5db; /* Text color */
+    font-size: 1rem; /* Default font size */
+    font-weight: 600; /* Bold font weight */
+    display: flex; /* Flex container for centering items */
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center align items */
+    gap: 0.5rem; /* Vertical gap between items */
+}
+
+.welcome-text p {
+    margin: 0; /* Remove default margin */
+}
+
+/* Icon styles */
+.welcome-icon {
+    font-size: 2rem; /* Default icon size */
+    color: #d1d5db; /* Icon color */
+}
+
+@media (min-width: 640px) {
+    /* Responsive styles for tablets and larger */
+    .welcome-text {
+        font-size: 1.5rem; /* Larger font size */
+    }
+    
+    .welcome-icon {
+        font-size: 3rem; /* Larger icon size */
+    }
+}
+
+@media (min-width: 768px) {
+    /* Responsive styles for medium screens and larger */
+    .welcome-text {
+        font-size: 2rem; /* Even larger font size */
+    }
+    
+    .welcome-icon {
+        font-size: 4rem; /* Even larger icon size */
+    }
+}

@@ -1,0 +1,87 @@
+.eachConvo {
+    display: flex;
+    align-items: center;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    padding-bottom: 0.1rem; 
+    cursor: pointer;
+}
+
+.eachConvo:hover {
+    background-color: rgba(29, 163, 246, 0.4);
+}
+
+.bgSky {
+  background-color: rgba(29, 163, 246);
+}
+
+.bgSky:hover {
+  background-color: rgba(29, 163, 246);
+}
+
+.avatar-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Avatar image */
+  .avatar {
+    width: 3rem; /* Adjust avatar image width */
+    height: 3rem; /* Adjust avatar image height */
+    border-radius: 50%; /* Rounded avatar shape */
+  }
+  
+  /* Status indicator */
+  .status-indicator-online {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 12px; /* Adjust indicator width */
+    height: 12px; /* Adjust indicator height */
+    border-radius: 50%; /* Rounded shape for indicator */
+    background-color: #4caf50; /* Online status color */
+    border: 1.5px solid #ffffff; /* White border for contrast */
+  }
+  
+  .status-indicator-offline {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 12px; /* Adjust indicator width */
+    height: 12px; /* Adjust indicator height */
+    border-radius: 50%; /* Rounded shape for indicator */
+    background-color: #c93131; /* Online status color */
+    border: 1.5px solid #ffffff; /* White border for contrast */
+  }
+
+.nameEmoji1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+}
+
+.nameEmoji2 {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    justify-content: space-between;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: rgb(229, 231, 235);
+    margin-left: 1rem;
+}
+
+.emoji {
+    font-size: 1.5rem;
+}
+
+.divider2 {
+    border-top: 1.2px solid #ababab; /* Tailwind border color */
+    margin-top: 0.5rem; /* Example margin top */
+    margin-bottom: 0.5rem;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+}

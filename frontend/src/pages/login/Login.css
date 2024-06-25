@@ -1,0 +1,103 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 24rem;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.loginbox {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    background-color: rgba(156, 175, 162, 0); 
+    background-clip: padding-box; 
+    backdrop-filter: blur(10px);
+}
+
+.loginheading {
+    font-size: 2rem; 
+    font-weight: 600; 
+    text-align: center; 
+    color: #d1d5db;
+}
+
+.chatApp {
+    color: #4eb7fd;
+}
+
+.label1 {
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 100px;
+}
+
+.username {
+    font-size: 1.2rem;
+    font-weight: 500; 
+    color: #cacaca;
+}
+
+.entryuser {
+    width: 100%;
+    height: 2.5rem;
+    padding: 0.7rem;
+    border: 1px solid #7b7b7b;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    background-color: rgb(28, 28, 28);
+    margin-top: 8px;
+    color: #e1e1e1;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.entryuser:focus {
+    outline: none;
+    border-color: #a0aec0;
+    box-shadow: 0 0 0 1.5px #a0aec0;
+}
+
+.formbox2 {
+    margin-top: 15px;
+}
+
+.noAccount {
+    font-size: 0.875rem; /* Tailwind text-sm equals 0.875rem or 14px */
+    margin-top: 0.5rem; /* Tailwind mt-2 equals 0.5rem or 8px */
+    display: inline-block;
+    text-decoration: none;
+    color: #c1c1c1;
+    font-size: 15px;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.noAccount:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #5fa4f8;
+}
+
+.loginbtn {
+    display: block; /* Tailwind btn-block */
+    width: 100%; /* Tailwind btn-block */
+    padding: 0.5rem; /* Tailwind btn-sm */
+    font-size: 1rem; /* Tailwind btn-sm */
+    margin-top: 0.7rem; /* Custom margin-top */
+    text-align: center; /* Center align text */
+    background-color: #0d3361; /* Example background color */
+    color: #fff; /* Example text color */
+    border: none; /* Remove default border */
+    border-radius: 0.5rem; /* Example border-radius */
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.loginbtn:hover {
+    background-color: #092342;
+}
+

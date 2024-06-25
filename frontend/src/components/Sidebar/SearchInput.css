@@ -1,0 +1,46 @@
+.searchForm {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem
+}
+
+.searchInput {
+    width: 100%; /* Full width */
+    height: 2.8rem; /* Example height */
+    padding: 0.8rem; /* Example padding */
+    border: 1px solid #e5e7eb; /* Example border color */
+    border-radius: 999px; /* Large value for rounded corners (creates a circle) */
+    box-sizing: border-box;
+    background-color: #222;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .searchInput:focus {
+    outline: none; /* Remove default focus outline */
+    border: 0.5px solid #356ce4; /* Example focus state border color */
+    box-shadow: 0 0 0 1px rgba(10, 61, 170, 0.5); /* Example focus state shadow */
+  }
+
+  .searchBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.8rem; /* Adjust width to control button size */
+    height: 3.4rem; /* Adjust height to control button size */
+    border-radius: 50%; /* Makes the button circular */
+    background-color: #4aa3ec; /* Example background color */
+    color: #ffffff; /* Example text color */
+    font-weight: bold; /* Example font weight */
+    text-decoration: none; /* Remove default underline */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .searchBtn:hover {
+    background-color: #225177; /* Example background color on hover */
+  }
+
+  .searchBtn svg {
+    font-size: 1.5rem; /* Adjust icon size */
+  }
